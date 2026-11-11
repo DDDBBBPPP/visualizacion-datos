@@ -26,4 +26,4 @@ La aplicación permite navegar entre los cinco gráficos, seleccionar la bibliot
 
 **Enlace a la aplicación:** [[Enlace Streamlit](https://visualizacion-datos-dddbbbppp.streamlit.app/)]
 
-**Cuaderno de Google Colab:** [Añadir enlace al cuaderno]
+**Cuaderno de Google Colab:** [[Enlace Colab](https://colab.research.google.com/github/DDDBBBPPP/visualizacion-datos/blob/main/visualizacion_dbp.ipynb)]
