@@ -1,15 +1,21 @@
 
 import streamlit as st
-from graficos import barras
 
-# Configuración general
+from graficos import (
+    barras,
+    lineas,
+    histograma,
+    dispersion,
+    burbujas
+)
+
 st.set_page_config(
     page_title="Visualización de datos",
     page_icon="📊",
     layout="wide"
 )
 
-# Menú lateral
+# Menú de navegación
 with st.sidebar:
     st.title("📊 Visualización de datos")
     st.caption("Matplotlib · Seaborn · Streamlit")
@@ -17,20 +23,29 @@ with st.sidebar:
     grafico = st.radio(
         "Selecciona un gráfico",
         [
-            "1. Barras agrupadas",
-            "2. Líneas",
-            "3. Histograma",
-            "4. Dispersión",
-            "5. Burbujas"
+            "Barras agrupadas",
+            "Líneas",
+            "Histograma",
+            "Dispersión",
+            "Burbujas"
         ]
     )
 
     st.divider()
     st.caption("Práctica de visualización de datos")
 
-# Contenido principal
-if grafico == "1. Barras agrupadas":
+# Cada módulo gestiona su propio contenido y pestañas
+if grafico == "Barras agrupadas":
     barras.mostrar()
 
-else:
-    st.info("Este gráfico se añadirá próximamente.")
+elif grafico == "Líneas":
+    lineas.mostrar()
+
+elif grafico == "Histograma":
+    histograma.mostrar()
+
+elif grafico == "Dispersión":
+    dispersion.mostrar()
+
+elif grafico == "Burbujas":
+    burbujas.mostrar()
