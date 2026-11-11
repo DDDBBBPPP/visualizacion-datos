@@ -24,6 +24,6 @@ El objetivo es representar cinco tipos de gráficos, comparar su implementación
 
 La aplicación permite navegar entre los cinco gráficos, seleccionar la biblioteca de visualización y utilizar filtros interactivos.
 
-**Enlace a la aplicación:** [[Añadir URL de Streamlit](https://visualizacion-datos-dddbbbppp.streamlit.app/)]
+**Enlace a la aplicación:** [[Enlace Streamlit](https://visualizacion-datos-dddbbbppp.streamlit.app/)]
 
 **Cuaderno de Google Colab:** [Añadir enlace al cuaderno]
